@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="container">
+      <div class="result">
+        <!-- Result title -->
+        <h3 class="title">Your Result</h3>
+        <!-- Result Score circle part -->
+        <div class="result-score">
+          <span class="score">76</span>
+          <span class="total-score">of 100</span>
+        </div>
+        <!-- Score Title -->
+        <h2 class="score-title">Great</h2>
+        <!-- Result Descrition -->
+        <p class="score-descrition">
+          Your performance exceed 65% of the people conducting the test here!
+        </p>
+      </div>
+      <!-- Start of summary -->
+      <div class="summary">
+        <h3 class="title">Summary</h3>
+        <!-- Reaction Summary -->
+        <div class="summary-info red-bg">
+          <div class="summary-info-text">
+            <img src="./assets/images/icon-reaction.svg" alt="Reaction icon" />
+            <span>Reaction</span>
+          </div>
+          <div class="summary-info-score">
+            <span class="summary-info-score-text">80</span>
+            <span> / 100</span>
+          </div>
+        </div>
+        <!-- Memory Summary -->
+        <div class="summary-info yellow-bg">
+          <div class="summary-info-text">
+            <img src="./assets/images/icon-memory.svg" alt="Memory icon" />
+            <span>Memory</span>
+          </div>
+          <div class="summary-info-score">
+            <span class="summary-info-score-text">92</span>
+            <span> / 100</span>
+          </div>
+        </div>
+        <!-- Verbal Summary -->
+        <div class="summary-info green-bg">
+          <div class="summary-info-text">
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal icon" />
+            <span>Verbal</span>
+          </div>
+          <div class="summary-info-score">
+            <span class="summary-info-score-text">61</span>
+            <span> / 100</span>
+          </div>
+        </div>
+        <!-- Visual Summary -->
+        <div class="summary-info violet-bg">
+          <div class="summary-info-text">
+            <img src="./assets/images/icon-visual.svg" alt="Visual icon" />
+            <span>Visual</span>
+          </div>
+          <div class="summary-info-score">
+            <span class="summary-info-score-text">73</span>
+            <span> / 100</span>
+          </div>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
